@@ -1,18 +1,20 @@
 # network-tracker
->Traceroute ISP information with API to http://ip-api.com
+>Traceroute ISP information and location with API to http://ip-api.com
 
 ## Installation
 
 Dependencies:
 
 ```sh
-sudo zypper in mtr
+mtr packet
+root access
 ```
 
 
 ## Motivation
 
 My self-study to cover the lack of information about the ISP's to troubleshoot routing switching performance issues.
+The mtr-tracker uses mtr package to ping and trace route internet hubs and AS in order to disclosure its location and Service Provider.
 ## Disclamer
 
 *** EDUCATIONAL PURPOSE ONLY. ***
@@ -171,3 +173,4 @@ It can take a while... Get some coffee :)
 
 * 1.0
     * Work in progress
+      - Write analysis report, create graphs and plot map with location and possible bottlenecks
