@@ -1,14 +1,12 @@
 # network-tracker
 >Traceroute ISP information with API to http://ip-api.com
 
-![](map.png)
-
 ## Installation
 
 Dependencies:
 
 ```sh
-mtr package
+sudo zypper in mtr
 ```
 
 
@@ -171,5 +169,5 @@ It can take a while... Get some coffee :)
 
 ## Release History
 
-* 0.1
+* 1.0
     * Work in progress
