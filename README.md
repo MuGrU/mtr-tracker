@@ -1,4 +1,4 @@
-# network-tracker
+# mtr-tracker
 >Traceroute ISP information and location with API to http://ip-api.com
 
 ## Installation
